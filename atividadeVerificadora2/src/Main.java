@@ -7,14 +7,7 @@ public class Main {
         Figuras listaFiguras = Figuras.getInstance();
         ConcreteFigurasFactory fabrica = new ConcreteFigurasFactory();
         while (true) {
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("Digite a opção desejada: ");
-            System.out.println("1 - Adicionar Triângulo na lista");
-            System.out.println("2 - Adicionar Retângulo na lista");
-            System.out.println("3 - Exibir a lista");
-            System.out.println("0 - Sair");
-
-            int opcao = scanner.nextInt();
+            int opcao = menu();
 
             if (opcao == 0) {
                 System.out.println("Saindo...");
@@ -28,5 +21,16 @@ public class Main {
                 default -> System.out.println("Opção inválida.");
             }
         }
+    }
+
+    static int menu() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite a opção desejada: ");
+        System.out.println("1 - Adicionar Triângulo na lista");
+        System.out.println("2 - Adicionar Retângulo na lista");
+        System.out.println("3 - Exibir a lista");
+        System.out.println("0 - Sair");
+
+        return scanner.nextInt();
     }
 }

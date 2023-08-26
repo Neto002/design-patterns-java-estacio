@@ -10,6 +10,9 @@ public class Triangulo extends FiguraPrototype {
 
     public Triangulo() {
         super();
+        lado1 = 0;
+        lado2 = 0;
+        lado3 = 0;
     }
 
     public Triangulo(Triangulo triangulo) {
@@ -26,7 +29,10 @@ public class Triangulo extends FiguraPrototype {
     @Override
     public String toString() {
         return "Triangulo{" +
-                "corPadrao='" + corPadrao + '\'' +
+                "lado1=" + lado1 +
+                ", lado2=" + lado2 +
+                ", lado3=" + lado3 +
+                ", corPadrao='" + corPadrao + '\'' +
                 ", posX=" + posX +
                 ", posY=" + posY +
                 '}';

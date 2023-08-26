@@ -3,7 +3,6 @@ package Fabricas;
 import Figuras.Retangulo;
 import Figuras.Triangulo;
 import Prototype.FiguraPrototype;
-import enums.TipoFigura;
 
 import java.util.Objects;
 
