@@ -17,15 +17,21 @@ public class Main {
         while (true) {
             int opcao = menu();
 
-            if (opcao == 0 ) {
-                System.out.println("Saindo...");
-                break;
+            switch (opcao) {
+                case 1:
+                    System.out.print("Qual coquetel você deseja?\n1 - Margarita\n2 - Mojito\n0 - Voltar\nSua escolha: ");
+                    int opcaoPedido = teclado.nextInt();
+                    escolheCoquetel(opcaoPedido);
+                    break;
+                case 0:
+                    System.out.println("Saindo...");
+                    break;
+                default:
+                    System.out.println("Opção incorreta!");
             }
 
-            if (opcao == 1) {
-                System.out.print("Qual coquetel você deseja?\n1 - Margarita\n2 - Mojito\n0 - Voltar\nSua escolha: ");
-                int opcaoPedido = teclado.nextInt();
-                escolheCoquetel(opcaoPedido);
+            if (opcao == 0 ) {
+                break;
             }
         }
     }
