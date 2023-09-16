@@ -7,12 +7,14 @@
       <module fileurl="file://$PROJECT_DIR$/atividadeVerificadora1/atividadeVerificadora1.iml" filepath="$PROJECT_DIR$/atividadeVerificadora1/atividadeVerificadora1.iml" />
       <module fileurl="file://$PROJECT_DIR$/atividadeVerificadora2/atividadeVerificadora2.iml" filepath="$PROJECT_DIR$/atividadeVerificadora2/atividadeVerificadora2.iml" />
       <module fileurl="file://$PROJECT_DIR$/atividadeVerificadora3/atividadeVerificadora3.iml" filepath="$PROJECT_DIR$/atividadeVerificadora3/atividadeVerificadora3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atividadeVerificadora4/atividadeVerificadora4.iml" filepath="$PROJECT_DIR$/atividadeVerificadora4/atividadeVerificadora4.iml" />
       <module fileurl="file://$PROJECT_DIR$/bridge/bridge.iml" filepath="$PROJECT_DIR$/bridge/bridge.iml" />
       <module fileurl="file://$PROJECT_DIR$/builder/builder.iml" filepath="$PROJECT_DIR$/builder/builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/decorator/decorator.iml" filepath="$PROJECT_DIR$/decorator/decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-java.iml" filepath="$PROJECT_DIR$/design-pattern-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/factoryMethod/factoryMethod.iml" filepath="$PROJECT_DIR$/factoryMethod/factoryMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/prototype/prototype.iml" filepath="$PROJECT_DIR$/prototype/prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxy/proxy.iml" filepath="$PROJECT_DIR$/proxy/proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/singleton/singleton.iml" filepath="$PROJECT_DIR$/singleton/singleton.iml" />
     </modules>
   </component>
